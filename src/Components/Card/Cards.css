@@ -1,6 +1,6 @@
 .card{
     width:100vw;
-    min-height:80vh;
+    min-height:50vh;
     height:auto;
     display: flex;
     justify-content: space-around;
@@ -9,7 +9,7 @@
 }
 
 img{
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.35s;
     height:120px;
     margin:20px;
     width:120px;
@@ -17,7 +17,5 @@ img{
 }
 
 img:hover{
-    transform: scale(1.5);
-    
-
+    transform: scale(1.25);
 }
