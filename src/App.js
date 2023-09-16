@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Box, Divider } from "@material-ui/core";
+import Container from "@mui/material/Container";
 
 import { Routes, Route } from "react-router-dom";
 
