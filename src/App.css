@@ -17,19 +17,13 @@ body{
 }
 
 body::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
 }
 
 .App {
   font-family: 'Ubuntu' !important;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
-  
-  
-  
-
-  
-
 }
 
 .App-logo {
@@ -41,6 +35,17 @@ body::-webkit-scrollbar {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.bottom-header{
+  color: black;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  background-color: lightblue;
+  z-index: 1;
 }
 
 .App-header {

@@ -40,6 +40,7 @@ const Atcoder = () => {
   return (
     <div className="atcoder">
       <h1>AtCoder Contest List</h1>
+      {info ? null : <h2>Loading</h2>}
       <Table info={info} />
     </div>
   );
